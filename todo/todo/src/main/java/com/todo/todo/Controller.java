@@ -97,7 +97,7 @@ import java.util.List;
 
         }
 
-
+        //delete the todos
         @DeleteMapping("dele")
         public List<todoapp> removeTodos(@RequestBody List<Integer> idList)
         {
